@@ -18,13 +18,13 @@ export default function Home() {
         </div>
       </section>
       <section className="flex flex-col gap-20">
-        <div className="flex flex-col items-center gap-10 w-full px-16 lg:px-64 md:px-40">
+        <div className="flex flex-col items-center gap-10 w-full px-8 lg:px-64 md:px-40">
           <div className="flex flex-col items-center gap-5">
             <h1 className="text-3xl sm:text-7xl text-center font-medium tracking-[-0.1em]">
               Desenvolva rotinas <span className="text-brand">saudáveis</span> e alcance{" "}
               <span className="text-brand">seu melhor potencial.</span>
             </h1>
-            <p className="text-center w-1/2 tracking-tighter text-gray-400">
+            <p className="text-center w-64 sm:w-1/2 tracking-tighter text-gray-400">
               De forma intuitiva SoulHeal foi projetado para ajudá-lo a desenvolver hábitos saudáveis de forma simples e
               eficaz.
             </p>
@@ -32,7 +32,7 @@ export default function Home() {
               <p className="tracking-tighter text-lg">Quero melhorar meu potencial</p>
             </div>
           </div>
-          <Image src={appImagem} className="w-2/3"></Image>
+          <Image src={appImagem} className="sm:w-2/3"></Image>
         </div>
         <div className="flex flex-col w-full gap-10 px-6 sm:px-16">
           <div className="flex items-center gap-10 border rounded-md p-4 lg:border-none lg:rounded-none lg:p-0">
@@ -75,7 +75,7 @@ export default function Home() {
         <div className="flex flex-col w-full gap-10 px-6 sm:px-16 items-center">
           <div className="flex flex-col w-full gap-2 items-center">
             <h1 className="text-3xl sm:text-7xl text-center font-medium tracking-[-0.1em]">Planos</h1>
-            <p className="text-center w-1/2 tracking-tighter text-gray-400">
+            <p className="text-center w-64 sm:w-1/2 tracking-tighter text-gray-400">
               Descubra os planos SoulHeal e desbloqueie o potencial completo para uma vida saudável e equilibrada
             </p>
           </div>
@@ -114,7 +114,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col w-full px-6 sm:px-16 items-center text-center tracking-tighter gap-5">
           <p className="font-bold text-xl text-brandDarker">Experimente agora!</p>
-          <p className="text-gray-600 w-1/2">
+          <p className="text-gray-600 w-64 sm:w-1/2">
             Inicie sua jornada de transformação com o SoulHeal hoje. Registre-se agora e dê o primeiro passo rumo a uma vida
             mais plena e feliz!
           </p>
