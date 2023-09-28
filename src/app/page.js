@@ -3,6 +3,7 @@ import appImagem from "../app/assets/app.png";
 import nutricaoImagem from "../app/assets/nutricao.png";
 import meditacaoImagem from "../app/assets/meditacao.png";
 import treinoImagem from "../app/assets/treino.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,10 +13,12 @@ export default function Home() {
           <Image src="./logo.svg" width={50} height={50}></Image>
           <p className="text-brand font-medium text-2xl tracking-[-0.1em]">SoulHeal</p>
         </div>
-        <div className="cursor-pointer active:scale-90 transition-all hover:bg-gray-50 gap-1 text-brand border-opacity-40 border-brand border p-2 px-8 rounded-md hidden sm:flex">
-          <p className="tracking-tighter text-lg">Acessar produto</p>
-          <p className="font-materialIcons text-lg">north_east</p>
-        </div>
+        <Link href="https://forms.gle/9Vm6Cmiy4oi5KP5z5">
+          <div className="cursor-pointer active:scale-90 transition-all hover:bg-gray-50 gap-1 text-brand border-opacity-40 border-brand border p-2 px-8 rounded-md hidden sm:flex">
+            <p className="tracking-tighter text-lg">Garanta já o seu</p>
+            <p className="font-materialIcons text-lg">north_east</p>
+          </div>
+        </Link>
       </section>
       <section className="flex flex-col gap-20">
         <div className="flex flex-col items-center gap-10 w-full px-8 lg:px-64 md:px-40">
@@ -28,9 +31,11 @@ export default function Home() {
               De forma intuitiva SoulHeal foi projetado para ajudá-lo a desenvolver hábitos saudáveis de forma simples e
               eficaz.
             </p>
-            <div className="cursor-pointer hover:opacity-90 active:scale-90 transition-all gap-1 text-white border-opacity-40 bg-brand p-2 px-8 rounded-md hidden sm:flex">
-              <p className="tracking-tighter text-lg">Quero melhorar meu potencial</p>
-            </div>
+            <Link href="https://forms.gle/9Vm6Cmiy4oi5KP5z5">
+              <div className="cursor-pointer hover:opacity-90 active:scale-90 transition-all gap-1 text-white border-opacity-40 bg-brand p-2 px-8 rounded-md hidden sm:flex">
+                <p className="tracking-tighter text-lg">Quero melhorar meu potencial</p>
+              </div>
+            </Link>
           </div>
           <Image src={appImagem} className="sm:w-2/3"></Image>
         </div>
@@ -118,10 +123,12 @@ export default function Home() {
             Inicie sua jornada de transformação com o SoulHeal hoje. Registre-se agora e dê o primeiro passo rumo a uma vida
             mais plena e feliz!
           </p>
-          <div className="cursor-pointer active:scale-90 transition-all hover:bg-gray-50 gap-1 text-brand border-opacity-40 border-brand border p-2 px-8 rounded-md flex">
-            <p className="tracking-tighter text-lg">Acessar produto</p>
-            <p className="font-materialIcons text-lg">north_east</p>
-          </div>
+          <Link href="https://forms.gle/9Vm6Cmiy4oi5KP5z5">
+            <div className="cursor-pointer active:scale-90 transition-all hover:bg-gray-50 gap-1 text-brand border-opacity-40 border-brand border p-2 px-8 rounded-md flex">
+              <p className="tracking-tighter text-lg">Garanta já o seu</p>
+              <p className="font-materialIcons text-lg">north_east</p>
+            </div>
+          </Link>
         </div>
       </section>
       <section className="border-t mt-10">
