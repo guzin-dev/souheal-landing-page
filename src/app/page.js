@@ -1,9 +1,9 @@
-import Image from "next/image";
-import appImagem from "../app/assets/app.png";
-import nutricaoImagem from "../app/assets/nutricao.png";
-import meditacaoImagem from "../app/assets/meditacao.png";
-import treinoImagem from "../app/assets/treino.png";
-import Link from "next/link";
+import Image from 'next/image';
+import appImagem from '../app/assets/app.png';
+import nutricaoImagem from '../app/assets/nutricao.png';
+import meditacaoImagem from '../app/assets/meditacao.png';
+import treinoImagem from '../app/assets/treino.png';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
           <Image src="./logo.svg" width={50} height={50}></Image>
           <p className="text-brand font-medium text-2xl tracking-[-0.1em]">SoulHeal</p>
         </div>
-        <Link href="https://forms.gle/9Vm6Cmiy4oi5KP5z5">
+        <Link href="https://soulheal-ten.vercel.app/">
           <div className="cursor-pointer active:scale-90 transition-all hover:bg-gray-50 gap-1 text-brand border-opacity-40 border-brand border p-2 px-8 rounded-md hidden sm:flex">
             <p className="tracking-tighter text-lg">Garanta já o seu</p>
             <p className="font-materialIcons text-lg">north_east</p>
@@ -24,14 +24,14 @@ export default function Home() {
         <div className="flex flex-col items-center gap-10 w-full px-8 lg:px-64 md:px-40">
           <div className="flex flex-col items-center gap-5">
             <h1 className="text-3xl sm:text-7xl text-center font-medium tracking-[-0.1em]">
-              Desenvolva rotinas <span className="text-brand">saudáveis</span> e alcance{" "}
+              Desenvolva rotinas <span className="text-brand">saudáveis</span> e alcance{' '}
               <span className="text-brand">seu melhor potencial.</span>
             </h1>
             <p className="text-center w-64 sm:w-1/2 tracking-tighter text-gray-400">
               De forma intuitiva SoulHeal foi projetado para ajudá-lo a desenvolver hábitos saudáveis de forma simples e
               eficaz.
             </p>
-            <Link href="https://forms.gle/9Vm6Cmiy4oi5KP5z5">
+            <Link href="https://soulheal-ten.vercel.app/">
               <div className="cursor-pointer hover:opacity-90 active:scale-90 transition-all gap-1 text-white border-opacity-40 bg-brand p-2 px-8 rounded-md hidden sm:flex">
                 <p className="tracking-tighter text-lg">Quero melhorar meu potencial</p>
               </div>
@@ -47,8 +47,8 @@ export default function Home() {
                 Nutrição sob medida para o seu sucesso 🌟
               </p>
               <p className="tracking-tighter text-lg text-brandDarker">
-                Explore um mundo de opções de receitas. Adapte seu plano alimentar às suas preferências e objetivos, criando
-                uma base sólida para o seu caminho em direção a uma vida mais saudável e equilibrada.
+                Explore um mundo de opções de receitas. Adapte seu plano alimentar às suas preferências e objetivos,
+                criando uma base sólida para o seu caminho em direção a uma vida mais saudável e equilibrada.
               </p>
             </div>
           </div>
@@ -59,7 +59,8 @@ export default function Home() {
               </p>
               <p className="tracking-tighter text-lg text-brandDarker">
                 Desenvolva uma rotina de exercícios totalmente adaptada ao seu estilo de vida. Com opções variadas e
-                flexíveis, você terá a liberdade de moldar seu caminho para o bem-estar físico e a vitalidade que merece.
+                flexíveis, você terá a liberdade de moldar seu caminho para o bem-estar físico e a vitalidade que
+                merece.
               </p>
             </div>
             <Image src={treinoImagem} className="w-96 hidden lg:flex"></Image>
@@ -72,7 +73,8 @@ export default function Home() {
               </p>
               <p className="tracking-tighter text-lg text-brandDarker">
                 Desperte a sua tranquilidade com meditações personalizáveis. Deixe o SoulHeal guiá-lo em uma jornada de
-                introspecção e serenidade, permitindo que você encontre equilíbrio em meio às demandas da vida cotidiana.
+                introspecção e serenidade, permitindo que você encontre equilíbrio em meio às demandas da vida
+                cotidiana.
               </p>
             </div>
           </div>
@@ -120,10 +122,10 @@ export default function Home() {
         <div className="flex flex-col w-full px-6 sm:px-16 items-center text-center tracking-tighter gap-5">
           <p className="font-bold text-xl text-brandDarker">Experimente agora!</p>
           <p className="text-gray-600 w-64 sm:w-1/2">
-            Inicie sua jornada de transformação com o SoulHeal hoje. Registre-se agora e dê o primeiro passo rumo a uma vida
-            mais plena e feliz!
+            Inicie sua jornada de transformação com o SoulHeal hoje. Registre-se agora e dê o primeiro passo rumo a uma
+            vida mais plena e feliz!
           </p>
-          <Link href="https://forms.gle/9Vm6Cmiy4oi5KP5z5">
+          <Link href="https://soulheal-ten.vercel.app/">
             <div className="cursor-pointer active:scale-90 transition-all hover:bg-gray-50 gap-1 text-brand border-opacity-40 border-brand border p-2 px-8 rounded-md flex">
               <p className="tracking-tighter text-lg">Garanta já o seu</p>
               <p className="font-materialIcons text-lg">north_east</p>
